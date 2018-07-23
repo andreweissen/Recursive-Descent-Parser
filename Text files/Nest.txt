@@ -1,0 +1,14 @@
+Window "Nested test" (400, 400) Layout Flow:
+  Panel Layout Flow:
+    Panel Layout Flow:
+      Panel Layout Flow:
+        Panel Layout Flow:
+          Label "Label 1";
+        End;
+        Label "Label 2";
+      End;
+      Label "Label 3";
+    End;
+    Label "Label 4";
+  End;
+End.

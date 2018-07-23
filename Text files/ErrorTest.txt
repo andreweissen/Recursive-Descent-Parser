@@ -1,0 +1,7 @@
+Window "Broken grammar" (300, 200) Layout Flow:
+  Group:
+    Radio "1"
+    Radio "2";
+    Radio "3";
+  End;
+End.

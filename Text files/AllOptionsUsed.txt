@@ -1,0 +1,23 @@
+Window "Register account" (300, 200) Layout Grid (3, 1, 5, 5):
+  Panel Layout Grid (1, 2, 5, 5):
+    Label "Select membership:";
+    Panel Layout Grid (3, 1):
+      Group
+        Radio "Premium";
+        Radio "Standard";
+        Radio "Free";
+      End;
+    End;
+  End;
+  Panel Layout Grid(2, 2):
+    Label "Enter username:";
+    Textfield 10;
+    Label "Enter password:";
+    Textfield 10;
+  End;
+  Panel Layout Flow:
+    Button "Login";
+    Button "Create";
+    Button "Help?";
+  End;
+End.
